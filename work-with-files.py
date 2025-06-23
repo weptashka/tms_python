@@ -1,0 +1,1 @@
+file_f1 = open('textfilename.txt', "w")
