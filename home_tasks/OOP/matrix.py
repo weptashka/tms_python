@@ -120,30 +120,20 @@ m3 = Matrix([[-1, 1234, 5], [0, 1, 2], [-2, 2, 55]])
 
 print("m1:\n", m1.__str__())
 print("m2:\n", m2.__str__())
-print("m3:\n", m2.__str__())
+print("m3:\n", m3.__str__())
 
 print("Сумма m1 + m2:\n", m1 + m2)
-
 print("Разница m1 - m2:\n", m1 - m2)
-
 print("Умножение на число:\n", m1 * 3)
-
 print("Транспонирование:\n", m1.transpose())
-
 print("Отрицательные в ноль:\n", m1.zero_negative())
-
 print("Единичная 3x3:\n", Matrix.identity(3, 3))
-
 print("Нулевая 2x4:\n", Matrix.zeros(2, 4))
-
 print("Диагональная:\n", Matrix.diagonal([1, 2, 3]))
-
 print("Размерность:", m1.shape())
-
 print("Количество элементов m1:", m1.size())
-
 print("Сумма элементов m1:", m1.total())
 
-print("Равны ли m1 и m3:", m1 == m3)  # True
-print("Равны ли m1 и m2:", m1 == m2)  # False
+print("Равны ли m1 и m3:", m1 == m3)
+print("Равны ли m1 и m2:", m1 == m2)
 
